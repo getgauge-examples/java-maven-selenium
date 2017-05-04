@@ -1,0 +1,12 @@
+# Search and verify result by Customer Name <name>
+* Search for customer by name <name>
+* The customer <name> is listed in result
+
+# Search for customer by name <name>
+* enter search criteria name <name>
+* Filter customers
+
+# Ensure customer by name <name> is not present
+* enter search criteria name <name>
+* Filter customers
+* The customer <name> is not listed in result
