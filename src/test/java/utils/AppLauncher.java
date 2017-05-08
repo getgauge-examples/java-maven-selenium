@@ -1,6 +1,8 @@
 package utils;
 
 import com.thoughtworks.gauge.Step;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import utils.driver.Driver;
 
 public class AppLauncher {

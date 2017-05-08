@@ -1,0 +1,9 @@
+
+# Check if the user <name> is logged in
+* Show the log in status for user <name>
+* Give an option to "Log out"
+
+# Log out
+* Log out the customer
+* Show a message "You have been logged out."
+* Give an option to "Log in"
