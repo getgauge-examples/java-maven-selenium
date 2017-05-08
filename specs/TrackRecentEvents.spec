@@ -9,7 +9,7 @@ tags: dashboard, register
 
 * Register as "customer" with email "customer@example.com" and "password"
 * Admin dashboard should reflect recent customer "customer@example.com"
-* Delete customer
+* Delete customer "customer@example.com"
 * Admin dashboard should not show customer "customer" in recent customers
 
 Admin dashboard should reflect Recently created orders

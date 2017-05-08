@@ -19,7 +19,7 @@ public class Dashboard {
 
     @Step("Recent customers should not reflect Customer <customer>")
     public void recentCustomersShouldNotReflectCustomer(String customer) {
-        dashboard.verifyRecentCustomer(customer);
+        dashboard.verifyRecentCustomerDoesNotContain(customer);
     }
 
 }

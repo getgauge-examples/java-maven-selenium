@@ -14,6 +14,12 @@ public class Header {
     @FindBy(how = How.LINK_TEXT, linkText = "Sign up")
     private WebElement signUp;
 
+    @FindBy(how = How.LINK_TEXT, linkText = "Administration interface")
+    private WebElement adminInterface;
+
+    @FindBy(how = How.LINK_TEXT, linkText = "Customers")
+    private WebElement customerList;
+
     public void logOut() {
         logOut.click();
     }
@@ -25,4 +31,8 @@ public class Header {
     public void logIn() {
         logIn.click();
     }
+
+    public void adminInterface(){adminInterface.click();}
+
+    public void customerList(){customerList.click();}
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class Dashboard {
     @FindBy(how = How.XPATH, xpath = "//*[text()='Recent Customers']/following-sibling::div/table/tbody/tr[1]/td")
@@ -18,7 +19,6 @@ public class Dashboard {
     }
 
     public void verifyRecentCustomerDoesNotContain(String recentCustomers){
-
-        assertEquals(recentCustomers, recentCustomer.getText());
+        assertNotEquals(recentCustomers, recentCustomer.getText());
     }
 }

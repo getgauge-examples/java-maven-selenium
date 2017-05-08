@@ -7,7 +7,6 @@ public class RegisterCustomer {
     private final Signup signup;
 
     public RegisterCustomer(){
-
         signup = PageFactory.initElements(Driver.webDriver, Signup.class);
     }
 

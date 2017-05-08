@@ -9,7 +9,7 @@ public class AppLauncher {
 
     private final Header header;
 
-    public  AppLauncher() {
+    public AppLauncher() {
         header = PageFactory.initElements(Driver.webDriver, Header.class);
     }
 
@@ -31,5 +31,12 @@ public class AppLauncher {
     @Step("proceed to log in")
     public void proceedToLogin() {
         header.logIn();
+    }
+
+    @Step("Open the customer list")
+    public void proceedToListOfCustomers() {
+        Driver.webDriver.get(APP_URL);
+        header.adminInterface();
+        header.customerList();
     }
 }

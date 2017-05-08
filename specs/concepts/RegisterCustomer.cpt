@@ -1,5 +1,5 @@
 # Register as <customer> with email <email> and <password>
-* proceed to log in
+* proceed to sign up
 * enter customer as <customer>
 * enter email as <email>
 * enter password as <password>
@@ -7,7 +7,8 @@
 * submit Registration
 * Log out
 
-# Delete customer
-* Open the admin dashboard
-* Search for customer by name <customer>
+# Delete customer <email>
+* Open the customer list
+* Search for customer by email <email>
 * Delete the customer
+* confirm deletion

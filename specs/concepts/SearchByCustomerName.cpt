@@ -6,6 +6,10 @@
 * enter search criteria name <name>
 * Filter customers
 
+# Search for customer by email <name>
+* enter search criteria email <name>
+* Filter customers
+
 # Ensure customer by name <name> is not present
 * enter search criteria name <name>
 * Filter customers
