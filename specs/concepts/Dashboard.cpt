@@ -1,8 +1,0 @@
-
-# Admin dashboard should reflect recent customer <customer>
-* Open the admin dashboard
-* Recent customers should reflect Customer "customer@example.com"
-
-# Admin dashboard should not show customer <customer> in recent customers
-* Open the admin dashboard
-* Recent customers should not reflect Customer "customer@example.com"

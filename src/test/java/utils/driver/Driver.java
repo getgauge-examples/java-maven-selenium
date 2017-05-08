@@ -1,4 +1,4 @@
-package driver;
+package utils.driver;
 
 import com.thoughtworks.gauge.AfterSuite;
 import com.thoughtworks.gauge.BeforeSuite;
