@@ -27,21 +27,6 @@ public class CustomerSignup {
         form.findElement(By.name("commit")).click();
     }
 
-    @Step("Show the log in status for user <customer>")
-    public void showTheLogInStatusForUser(String customer) {
-        WebDriver webDriver = Driver.webDriver;
-        WebElement authenticatedInfo = webDriver.findElement(By.id("auth"));
-        assertTrue(authenticatedInfo.isDisplayed());
-        assertTrue(authenticatedInfo.getText().contains("Welcome " + customer + "! Not you?"));
-    }
-
-    @Step("Give an option to <option>")
-    public void giveAnOptionToLogOut(String option) {
-        WebDriver webDriver = Driver.webDriver;
-        WebElement logOut = webDriver.findElement(By.linkText(option));
-        assertTrue(logOut.isDisplayed());
-    }
-
     @Step("See items available for purchase.")
     public void seeItemsAvaiableForPurchase() {
         WebDriver webDriver = Driver.webDriver;
