@@ -1,3 +1,5 @@
+package utils;
+
 import com.thoughtworks.gauge.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

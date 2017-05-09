@@ -19,6 +19,7 @@ public class CustomerSignup {
     public void registerCustomerWith(String customer, String email, String password) {
         WebDriver webDriver = Driver.webDriver;
         webDriver.findElement(By.linkText("Sign up")).click();
+
         WebElement form = webDriver.findElement(By.id("new_user"));
         form.findElement(By.name("user[username]")).sendKeys(customer);
         form.findElement(By.name("user[email]")).sendKeys(email);
