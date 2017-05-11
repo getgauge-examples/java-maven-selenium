@@ -1,17 +1,14 @@
-import com.google.common.base.CharMatcher;
-import com.thoughtworks.gauge.ContinueOnFailure;
 import com.thoughtworks.gauge.Step;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils.driver.Driver;
+
 import java.util.List;
-import java.util.NoSuchElementException;
 
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class CustomerSignup {
 
