@@ -58,7 +58,7 @@ Note:
 * Using [External datasource (special param)](http://getgauge.io/documentation/user/current/specifications/parameters.html#special-parameters)
 * Using [tags](http://getgauge.io/documentation/user/current/specifications/tags.html)
 * Using Gauge with [Selenium Webdriver](http://docs.seleniumhq.org/projects/webdriver/)
-* Running Gauge specs with [Gradle](http://gradle.org)
+* Running Gauge specs with [Maven](https://maven.apache.org/)
 
 # Copyright
 Copyright 2016, ThoughtWorks Inc.
