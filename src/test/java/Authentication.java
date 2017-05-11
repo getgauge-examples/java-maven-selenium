@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils.driver.Driver;
-
 import static org.junit.Assert.assertTrue;
 
 public class Authentication {
@@ -17,7 +16,7 @@ public class Authentication {
     public void clearPreviousLogin() {
         try {
             logOut();
-        }catch (Exception ex){
+        } catch (Exception ex) {
             System.out.println("no previously logged in Customers");
         }
     }
@@ -44,7 +43,7 @@ public class Authentication {
         assertTrue(authenticatedInfo.getText().contains("Welcome " + customer + "! Not you?"));
     }
 
-    private void logOut(){
+    private void logOut() {
         WebDriver webDriver = Driver.webDriver;
         WebElement logOut = webDriver.findElement(By.linkText("Log out"));
         logOut.click();
