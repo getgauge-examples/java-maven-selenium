@@ -1,16 +1,12 @@
 Customer sign-up
 ================
 
-     |name|email               |password|
-     |----|--------------------|--------|
-     |John|john.doe@example.com|password|
-
 * Go to active admin store
 
 Customer Sign-up
 ----------------
 tags: sign-up, customer
 
-* Sign up a new customer with name <name> email <email> and <password>
-* Check if the user <name> is logged in
+* Sign up a new customer with name "Jann" email "jann.doe@example.com" and "password"
+* Check if the user "Jann" is logged in
 * See items available for purchase.
