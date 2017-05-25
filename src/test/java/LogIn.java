@@ -3,31 +3,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils.driver.Driver;
+
 import static org.junit.Assert.assertTrue;
 
-public class Authentication {
-
-    @Step("Log out the customer")
-    public void logOutTheCustomer() {
-        logOut();
-    }
-
-    @Step("Clear previous login")
-    public void clearPreviousLogin() {
-        try {
-            logOut();
-        } catch (Exception ex) {
-            System.out.println("no previously logged in Customers");
-        }
-    }
-
-    @Step("Give an option to Log Out")
-    public void giveAnOptionToLogOut() {
-        WebDriver webDriver = Driver.webDriver;
-        WebElement logOut = webDriver.findElement(By.linkText("Log out"));
-        assertTrue(logOut.isDisplayed());
-    }
-
+public class LogIn {
     @Step("Give an option to Log In")
     public void giveAnOptionToLogIn() {
         WebDriver webDriver = Driver.webDriver;
@@ -41,12 +20,6 @@ public class Authentication {
         WebElement authenticatedInfo = webDriver.findElement(By.id("auth"));
         assertTrue(authenticatedInfo.isDisplayed());
         assertTrue(authenticatedInfo.getText().contains("Welcome " + customer + "! Not you?"));
-    }
-
-    private void logOut() {
-        WebDriver webDriver = Driver.webDriver;
-        WebElement logOut = webDriver.findElement(By.linkText("Log out"));
-        logOut.click();
     }
 
     @Step("Login as name <name> and <password>")
