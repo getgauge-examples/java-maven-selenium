@@ -4,3 +4,7 @@ This is a concept file with following syntax for each concept.
 # Place the order
 * Checkout now
 * Show a message "Thank you for your purchase! We will ship it shortly!"
+
+# Add <item> and the cart will now contain <itemCount> item(s)
+* Add item <item> to the cart.
+* Cart now contains <itemCount> number of items

@@ -48,4 +48,13 @@ public class Authentication {
         WebElement logOut = webDriver.findElement(By.linkText("Log out"));
         logOut.click();
     }
+
+    @Step("Login as name <name> and <password>")
+    public void LoginAsCustomerDetails(String name, String password) {
+        WebDriver webDriver = Driver.webDriver;
+        webDriver.findElement(By.linkText("Log in")).click();
+        webDriver.findElement(By.name("login")).sendKeys(name);
+        webDriver.findElement(By.name("password")).sendKeys(password);
+        webDriver.findElement(By.name("commit")).click();
+    }
 }

@@ -7,7 +7,22 @@ Buy a book
 ----------
 tags: customer
 
-* Sign up a new customer with name "Johnny" email "Johnny.doe@example.com" and "password"
+* Log in with customer name "ScroogeMcduck" and "password"
 * See items available for purchase.
-* Add item "Beginning Ruby: From Novice to Professional" to the shopping basket.
+* Add "Beginning Ruby: From Novice to Professional" and the cart will now contain "1" item(s)
 * Place the order
+* Log out the customer
+
+Cart retains items until order is placed
+----------------------------------------
+tags: customer
+
+* Log in with customer name "ScroogeMcduck" and "password"
+* See items available for purchase.
+* Add "Beginning Ruby: From Novice to Professional" and the cart will now contain "1" item(s)
+* Log out the customer
+
+* Log in with customer name "ScroogeMcduck" and "password"
+* Add "The Well-Grounded Rubyist" and the cart will now contain "2" item(s)
+* Place the order
+* Log out the customer

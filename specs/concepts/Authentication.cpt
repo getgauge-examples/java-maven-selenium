@@ -7,3 +7,8 @@
 * Log out the customer
 * Show a message "You have been logged out."
 * Give an option to Log In
+
+# Log in with customer name <name> and <password>
+* Login as name <name> and <password>
+* Show the log in status for user <name>
+* See items available for purchase.
