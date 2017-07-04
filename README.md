@@ -1,5 +1,7 @@
 # Gauge example in Java
 
+[![Build Status](https://travis-ci.org/getgauge-examples/gauge-active-admin-example-maven.svg?branch=master)](https://travis-ci.org/getgauge-examples/gauge-active-admin-example-maven)
+
 This is an example project for doing web automation testing with [Gauge](http://getgauge.io). This project tests some of the functionalities of the [active admin demo](https://github.com/getgauge/activeadmin-demo) app. This app is hosted as a Java WAR (with embedded Jetty).
 
 ## Running this example
