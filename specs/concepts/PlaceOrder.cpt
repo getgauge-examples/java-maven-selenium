@@ -4,9 +4,12 @@ This is a concept file with following syntax for each concept.
 # Checkout
 * Checkout now
 * Show a message "Thank you for your purchase! We will ship it shortly!"
+
 # Add <item> and the cart will now contain <itemCount> item(s)
+* See items available for purchase.
 * Add item <item> to the cart.
 * Cart now contains <itemCount> number of items
+
 # Place order for <item>. The cart should now contain <itemcount> items
 * See items available for purchase.
 * Add <item> and the cart will now contain <itemcount> item(s)

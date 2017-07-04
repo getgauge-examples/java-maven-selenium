@@ -34,7 +34,7 @@ public class LogOut {
         WebDriver webDriver = Driver.webDriver;
         String option = "Log out";
 
-        WebDriverWait wait = new WebDriverWait(webDriver, 300);
+        WebDriverWait wait = new WebDriverWait(webDriver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(option)));
         WebElement logOut = webDriver.findElement(By.linkText(option));
 
