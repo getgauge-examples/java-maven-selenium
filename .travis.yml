@@ -28,7 +28,12 @@ script:
 after_success:
   - cd ./reports/html-report 
   - surge
-
+  
 after_failure:
   - cd ./reports/html-report 
   - surge
+
+deploy:
+  provider: surge
+  project: ./
+  domain: examples.getgauge.java-maven-selenium
