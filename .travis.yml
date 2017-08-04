@@ -5,6 +5,7 @@ language: java
 
 before_install:
   - brew update
+  - npm install --global surge
   
 install:
   - brew cask install google-chrome
@@ -23,3 +24,8 @@ script:
   - sleep 30
   - mvn clean
   - mvn test
+
+deploy:
+  provider: surge
+  project: ./reports/html-report/
+  domain: examples.getgauge.java-maven-selenium
