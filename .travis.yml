@@ -29,3 +29,4 @@ deploy:
   provider: surge
   project: ./reports/html-report/
   domain: examples.getgauge.java-maven-selenium
+  skip_cleanup: true
