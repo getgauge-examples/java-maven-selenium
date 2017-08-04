@@ -28,5 +28,5 @@ script:
 deploy:
   provider: surge
   project: ./reports/html-report/
-  domain: examples.getgauge.java-maven-selenium
+  domain: gauge-java-maven-selenium.surge.sh
   skip_cleanup: true
