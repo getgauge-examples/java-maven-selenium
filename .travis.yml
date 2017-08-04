@@ -10,7 +10,6 @@ install:
   - brew cask install google-chrome
   - brew install chromedriver
   - brew install gauge
-  - npm install --global surge
   - gauge --install java
   - gauge --install html-report
 
@@ -24,16 +23,3 @@ script:
   - sleep 30
   - mvn clean
   - mvn test
-  
-after_success:
-  - cd ./reports/html-report 
-  - surge
-  
-after_failure:
-  - cd ./reports/html-report 
-  - surge
-
-deploy:
-  provider: surge
-  project: ./
-  domain: examples.getgauge.java-maven-selenium
