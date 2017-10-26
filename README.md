@@ -14,7 +14,7 @@ This example requires the following softwares to run.
     * Note that Gauge works with Java 1.6 and above. But this particular example uses Java 1.7
   * [Gauge](http://getgauge.io/get-started/index.html)
   * Gauge Java plugin
-    * can be installed using `gauge --install java`
+    * can be installed using `gauge install java`
   * Chrome
 
 ### Setting up the System Under Test (SUT)
