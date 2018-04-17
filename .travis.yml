@@ -9,7 +9,7 @@ before_install:
 
 install:
   - brew cask install google-chrome
-  - brew install chromedriver
+  - brew cask install chromedriver
   - brew install gauge
   - gauge install java
   - gauge install html-report
