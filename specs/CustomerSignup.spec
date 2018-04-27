@@ -7,6 +7,6 @@ Customer Sign-up
 ----------------
 tags: sign-up, customer
 
-* Sign up a new customer with name "Jann" email "jann.doe@example.com" and "password"
-* Check if the user "Jann" is logged in
+* Sign up a new customer with name "Jane" email "jane.doe@example.com" and "password"
+* Check if the user "Jane" is logged in
 * See items available for purchase.
