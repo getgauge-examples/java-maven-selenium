@@ -9,6 +9,8 @@ import static org.junit.Assert.assertTrue;
 
 public class LogOut {
 
+    private static By submitLogOut = By.linkText("Log out");
+
     @Step("Log out the customer")
     public void logOutTheCustomer() {
         logOut();
@@ -26,17 +28,16 @@ public class LogOut {
     @Step("Give an option to Log Out")
     public void giveAnOptionToLogOut() {
         WebDriver webDriver = Driver.webDriver;
-        WebElement logOut = webDriver.findElement(By.linkText("Log out"));
+        WebElement logOut = webDriver.findElement(submitLogOut);
         assertTrue(logOut.isDisplayed());
     }
 
     private void logOut() {
         WebDriver webDriver = Driver.webDriver;
-        String option = "Log out";
 
         WebDriverWait wait = new WebDriverWait(webDriver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(option)));
-        WebElement logOut = webDriver.findElement(By.linkText(option));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(submitLogOut));
+        WebElement logOut = webDriver.findElement(submitLogOut);
 
         logOut.click();
     }
