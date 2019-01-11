@@ -46,7 +46,7 @@ mvn gauge:execute -DspecsDir=specs -Denv="ie"
 ```
 
 Note:
-  * Gauge can also be used with other [build tools](http://getgauge.io/documentation/user/current/test_code/java/using_build_tools.html).
+  * Gauge can also be used with other [build tools](https://docs.gauge.org/latest/configuration.html#build-tools).
   * You can use Gauge even without a build script!
 
 ## Topics covered in the example
