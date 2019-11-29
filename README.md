@@ -19,7 +19,7 @@ This example requires the following softwares to run.
 
 ### Setting up the System Under Test (SUT)
 
-* Download [activeadmin-demo.war](https://bintray.com/artifact/download/gauge/activeadmin-demo/activeadmin-demo.war)
+* Download [activeadmin-demo.war](https://github.com/getgauge-examples/activeadmin-demo/releases/tag/untagged-f0befd5494efa4baabd2)
 * Bring up the SUT by executing the below command
 ```
 java -jar activeadmin-demo.war
