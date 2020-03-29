@@ -1,6 +1,10 @@
 {
   "Language": "java",
   "Plugins": [
-    "html-report"
+    "html-report",
+    "spectacle",
+    "json-report",
+    "flash",
+    "xml-report"
   ]
 }
