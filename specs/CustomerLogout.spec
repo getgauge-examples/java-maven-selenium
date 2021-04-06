@@ -4,7 +4,7 @@
    |----|--------------------|--------|
    |John|john.doe@example.com|password|
    |Jane|jane.doe@example.com|password|
-
+   
 * Go to active admin store
 
 ## Customer must be able to log out

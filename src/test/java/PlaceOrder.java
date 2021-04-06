@@ -7,7 +7,6 @@ import utils.driver.Driver;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class PlaceOrder {
 

@@ -2,5 +2,6 @@
     "files.associations": {
         "*.spec": "gauge",
         "*.cpt": "gauge"
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
